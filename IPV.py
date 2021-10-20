@@ -32,3 +32,7 @@ elif inp == '2':
 #Exit option
 elif inp == '4':
     print('Exit')
+
+"""---Development by Puma---"""
+
+"""GPL3"""
