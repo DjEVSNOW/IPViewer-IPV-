@@ -25,7 +25,8 @@ elif inp == '2':
     response = input('Input url( ex. https://www.google.ru/ ):\n')
     print('Server status is:\n',requests.get(response))
 
-#Get any web-site ip-address with socket library                       elif inp == '3':
+#Get any web-site ip-address with socket library                       
+elif inp == '3':
     host_name = input('Enter the web-site address(ex. www.google.ru ):>
     print(f'The {host_name} IP address is: {socket.gethostbyname(host_>
 
